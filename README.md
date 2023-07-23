@@ -23,6 +23,3 @@ data_spliter(p_json=30, p_DB=20, csv_file_name='donnees.csv', file_json_name_par
 ```
 
 Assurez-vous que la somme des pourcentages p_json et p_DB est inférieure ou égale à 100, et que le fichier d'origine est au format CSV (.csv). En cas d'erreur de paramètres, un message sera affiché à l'exécution.
-
-
-Vous pouvez copier et coller ce texte dans un fichier README.md à la racine de votre projet sur GitHub pour documenter la fonction "Data Spliter". N'hésitez pas à personnaliser le texte et à ajouter d'autres informations pertinentes concernant votre projet.
