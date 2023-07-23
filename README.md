@@ -20,6 +20,7 @@ Cette fonction permet de diviser un ensemble de données CSV en trois parties : 
 data_spliter(p_json=30, p_DB=20, csv_file_name='donnees.csv', file_json_name_part='data_json', 
              server='mon_serveur_sql', database='ma_base_de_donnees', table_name='ma_table', 
              file_Csv_name_part='data_csv')
+```
 
 Assurez-vous que la somme des pourcentages p_json et p_DB est inférieure ou égale à 100, et que le fichier d'origine est au format CSV (.csv). En cas d'erreur de paramètres, un message sera affiché à l'exécution.
 
